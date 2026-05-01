@@ -12,8 +12,7 @@ The dataset contains hourly ICU measurements for individual patients with a bina
 The study uses Logistic Regression, Random Forest, and Gradient Boosting models to compare linear and tree‑based approaches for early sepsis risk prediction.
 Median imputation is applied to handle missing values in ICU measurements as a pragmatic baseline.
 Model performance is evaluated using clinically meaningful metrics, with emphasis on ROC‑AUC, recall, classification reports, and confusion matrices, rather than accuracy.
-A recall‑focused probability threshold (0.25) is applied to predicted probabilities to reduce missed sepsis cases.
-Probability calibration (Platt scaling) is performed for Logistic Regression and Random Forest to improve the interpretability and reliability of predicted risk scores.
+Probability calibration is performed for Logistic Regression and Random Forest to improve the interpretability and reliability of predicted risk scores.
 ## Key Results
 - Random Forest achieved the highest ROC‑AUC (≈ 0.79)  
 - ROC‑AUC alone was insufficient in this imbalanced setting  

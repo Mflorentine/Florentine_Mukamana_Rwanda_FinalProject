@@ -18,4 +18,5 @@ Probability calibration (Platt scaling) is performed for Logistic Regression and
 - Random Forest achieved the highest ROC‑AUC (≈ 0.79)  
 - ROC‑AUC alone was insufficient in this imbalanced setting  
 - Recall‑focused analysis and probability calibration were essential for meaningful early‑warning risk estimation
+  
 This project can be used for educational and methodological demonstration of sepsis risk prediction and evaluation strategies. Not for direct clinical deployment.

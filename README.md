@@ -1,3 +1,5 @@
+Early Sepsis Risk Prediction in Intensive Care Unit Using Machine Learning
+
 This project explores machine learning approaches for early sepsis risk prediction using ICU data. The goal is to evaluate models as early‑warning decision support tools, not automated diagnostic systems, 
 with emphasis on clinically meaningful evaluation, recall, and calibrated risk estimation.
 ## Dataset
